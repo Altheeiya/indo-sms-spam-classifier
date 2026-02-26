@@ -39,8 +39,10 @@ streamlit run app.py
 
 ## Struktur File
 
-| File               | Deskripsi                                 |
-| ------------------ | ----------------------------------------- |
-| `app.py`           | Aplikasi Streamlit untuk klasifikasi SMS  |
-| `Notebook.ipynb`   | Notebook eksplorasi data & training model |
-| `requirements.txt` | Daftar dependensi Python                  |
+| File                  | Deskripsi                                 |
+| --------------------- | ----------------------------------------- |
+| `app.py`              | Aplikasi Streamlit untuk klasifikasi SMS  |
+| `Notebook.ipynb`      | Notebook eksplorasi data & training model |
+| `requirements.txt`    | Daftar dependensi Python                  |
+| `model_spam.pkl`      | Model klasifikasi spam yang sudah dilatih |
+| `vectorizer_spam.pkl` | TF-IDF vectorizer untuk ekstraksi fitur   |
