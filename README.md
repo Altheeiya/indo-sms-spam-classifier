@@ -6,15 +6,15 @@ Aplikasi berbasis **Streamlit** untuk mendeteksi SMS spam berbahasa Indonesia me
 
 Aplikasi ini mengklasifikasikan pesan SMS/WhatsApp ke dalam 3 kategori:
 
-- **Normal** — Pesan biasa/aman
-- **Fraud** — Pesan penipuan
-- **Promo** — Pesan promosi
+- **Normal** : Pesan biasa/aman
+- **Fraud** : Pesan penipuan
+- **Promo** : Pesan promosi
 
 ## Preprocessing
 
-1. **Case Folding** — Mengubah teks menjadi huruf kecil
-2. **Regex Cleaning** — Menghapus karakter non-alfabet
-3. **Stemming** — Menggunakan library [Sastrawi](https://github.com/har07/PySastrawi) untuk stemming Bahasa Indonesia
+1. **Case Folding** : Mengubah teks menjadi huruf kecil
+2. **Regex Cleaning** : Menghapus karakter non-alfabet
+3. **Stemming** : Menggunakan library [Sastrawi](https://github.com/har07/PySastrawi) untuk stemming Bahasa Indonesia
 
 ## Cara Menjalankan
 
